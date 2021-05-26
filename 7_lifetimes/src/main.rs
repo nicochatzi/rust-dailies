@@ -22,8 +22,12 @@ fn move_() {
 
 fn mut_ref_access() {
     let mut v = vec![0, 1, 2];
+    // &v is a "shared read access" 
     // for item in &v {
     //     if *item > 0 {
+    //     // remove takes a mutable ref:
+    //     // fn remove(&mut self, usize);
+    //     // so we're trying to mutate while reading 
     //         v.remove(0);
     //     }
     // }
@@ -77,9 +81,9 @@ fn main() {
                     samples: &samples[start_sample_idx..last_sample_idx],
                 }
                 .process();
-            }
+            } // Buffer is dropped at the end of this scope, `samples` lives on... 
         }
-    }
+    } // samples is dropped at the end of this scope
 
     //re-use audio_buffer here, no no no
 }

@@ -1,0 +1,102 @@
+{
+  "plans": [
+    {
+      "id": "f18f37c5-deec-4722-a3b1-a681061f9bfb",
+      "name": "fast equaliser user",
+      "description": "FAST Equaliser",
+      "hidden": false,
+      "free": false,
+      "warehouseAccess": false,
+      "formats": [],
+      "softwareIds": ["com.focusrite.fast-equaliser"],
+      "hubspotName": "fast_equaliser_user",
+      "hubspotDateRegisteredName": "fast_equaliser_date_registered",
+      "price": { "GBP": 4.99, "EUR": 4.99, "USD": 5.99, "CAD": 6.99 },
+      "term": 15
+    },
+    {
+      "id": "ea39d260-6bb8-4f1d-be08-58e8216bbc46",
+      "name": "fast compressor user",
+      "description": "FAST Compressor",
+      "hidden": false,
+      "free": false,
+      "warehouseAccess": false,
+      "formats": [],
+      "softwareIds": ["com.focusrite.fast-compressor"],
+      "hubspotName": "fast_compressor_user",
+      "hubspotDateRegisteredName": "fast_compressor_date_registered",
+      "price": { "GBP": 4.99, "EUR": 4.99, "USD": 5.99, "CAD": 6.99 },
+      "term": 15
+    },
+    {
+      "id": "163dbcbd-5302-430e-a815-8cd757cbdb45",
+      "name": "fast reveal user",
+      "description": "FAST Reveal",
+      "hidden": false,
+      "free": false,
+      "warehouseAccess": false,
+      "formats": [],
+      "softwareIds": ["com.focusrite.fast-reveal"],
+      "hubspotName": "fast_reveal_user",
+      "hubspotDateRegisteredName": "fast_reveal_date_registered",
+      "price": { "GBP": 4.99, "EUR": 4.99, "USD": 5.99, "CAD": 6.99 },
+      "term": 15
+    },
+    {
+      "id": "1401ae3d-05cf-409d-b719-d88d58173ebc",
+      "name": "fast verb user",
+      "description": "FAST Verb",
+      "hidden": false,
+      "free": false,
+      "warehouseAccess": false,
+      "formats": [],
+      "softwareIds": ["com.focusrite.fast-verb"],
+      "hubspotName": "fast_verb_user",
+      "hubspotDateRegisteredName": "fast_verb_date_registered"
+    },
+    {
+      "id": "6457ed73-e1ba-420f-a6bf-0cf0c263863c",
+      "name": "ampify subscriber",
+      "description": "Subscribers",
+      "hidden": false,
+      "free": false,
+      "warehouseAccess": false,
+      "formats": ["flac", "ogg", "m4a"],
+      "softwareIds": ["com.ampify.studio"],
+      "hubspotName": "ampify_studio_user",
+      "hubspotDateRegisteredName": "ampify_studio_registered",
+      "price": { "GBP": 6.66, "EUR": 7.99, "USD": 8.99, "CAD": 9.99 },
+      "term": null
+    },
+    {
+      "id": "49d56008-0357-4957-900d-662e735e3c22",
+      "name": "registered user",
+      "description": "Registered users",
+      "hidden": false,
+      "free": false,
+      "warehouseAccess": false,
+      "formats": ["ogg"],
+      "softwareIds": ["com.ampify.studio"]
+    },
+    {
+      "id": "d9191d76-4b93-4269-9099-8cecba699229",
+      "name": "free user",
+      "description": "Everyone",
+      "hidden": false,
+      "free": true,
+      "warehouseAccess": false,
+      "formats": ["ogg"],
+      "softwareIds": ["com.ampify.studio"]
+    },
+    {
+      "id": "728f0e33-2b95-4eea-b022-0565ead61591",
+      "name": "warehouse user",
+      "description": "you are an admin",
+      "hidden": true,
+      "free": false,
+      "warehouseAccess": true,
+      "formats": ["flac", "ogg", "m4a"],
+      "softwareIds": ["com.ampify.studio"]
+    }
+  ]
+}
